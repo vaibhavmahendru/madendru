@@ -1,0 +1,129 @@
+@import url('')
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+.navbar{
+	 position: fixed;
+	 top: 0;
+	 z-index: 99999;
+	 
+	 
+	 
+}
+.navbar .logo{
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 2px;
+}
+.nav ul.nav{
+	 margin-right: 15%;
+
+}
+.navbar ul.nav li.active,
+.navbar ul.nav li:hover{
+	background: #969595;
+	color: #000;
+}
+.navbar ul.nav li a{
+	color: #fff;
+	font-size: 1em;
+	font-weight: 500;
+}
+.navbar ul.nav li.active a,
+.navbar ul.nav li:hover a{
+	color: #000;
+}
+#carouselExampleIndicators{
+	position: relative;
+	height:100vh;
+	width: 100%;
+
+}
+#carouselExampleIndicators .carousel-inner{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: #000;
+
+
+}
+#carouselExampleIndicators .carousel-inner .caeousel-item{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: url('images\a.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+
+}
+#carouselExampleIndicators .carousel-inner .caeousel-item:nth-child(2){
+	background: url('https://images.pexels.com/photos/247671/pexels-photo-247671.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-size: 100% 100%;
+    background-position: center;
+
+}
+#carouselExampleIndicators .carousel-inner .caeousel-item:nth-child(3){
+	background: url('https://images.pexels.com/photos/1572386/pexels-photo-1572386.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-size: 100% 100%;
+    background-position: center;
+
+}
+.mobile{
+	display: flex;
+}
+.half{
+	width: 65%;
+	background-color: #333030;
+	color: #fff;
+	padding: 3%;
+}
+.half img{
+	margin-right: -10%
+}
+.half1{
+	width: 35%;
+	background-color: #333030;
+	color: #fff;
+	padding: 3%;
+}
+.bolt{
+	font-size: 30px;
+	text-transform: bold;
+}
+
+
+
+
+h3{
+	font-size: 20px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	margin-top: 5px;	
+
+}
+p{
+	width: 100%;
+	color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  
+.mobile{
+	display: block;
+}
+
+ .mobile .half{
+ 	min-width: 100%;
+
+ }
+ .mobile .half1{
+ 	min-width: 100%;
+ }
+ }
+
